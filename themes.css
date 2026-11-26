@@ -1,0 +1,114 @@
+/* Optional preset themes for Sakuga VFX.
+ * Load this stylesheet and set data-sk-theme="midnight" | "cyan" | "amber" (or "paper") on <html> or <body>.
+ * core.js watches theme attribute changes and updates Canvas FX + manga lettering automatically.
+ */
+
+:root[data-sk-theme="paper"],
+[data-sk-theme="paper"] {
+  --page: #ffffff;
+  --text: #1d1a4a;
+  --mute: #8580b0;
+  --line: #dcdaf0;
+  --chip: #f4f3fc;
+  --sk-card: #ffffff;
+  --sk-ink: #1d1a4a;
+  --sk-dim: #8580b0;
+  --sk-soft: #b8b3ff;
+  --sk-pri: #8f8df7;
+  --sk-pri-ink: #1d1a4a;
+  --sk-acc: #ff5fa8;
+  --sk-track: #c9cbe0;
+  --sk-on-pri: #ffffff;
+  --sk-fx-fill: #ffffff;
+  --sk-fx-shade: #b8b3ff;
+  --sk-fx-line: #5a4fd8;
+  --sk-fx-acc: #ff5fa8;
+  --sk-fx-ink: #1d1a4a;
+  --sk-sfx-fill: #1d1a4a;
+  --sk-sfx-edge: #ffffff;
+  --sk-mask: rgba(29, 26, 74, .24);
+  --sk-mask-dot: rgba(29, 26, 74, .22);
+}
+
+:root[data-sk-theme="midnight"],
+[data-sk-theme="midnight"] {
+  color-scheme: dark;
+  --page: #0f111a;
+  --text: #eef0ff;
+  --mute: #9299be;
+  --line: #292e45;
+  --chip: #1a1e2e;
+  --sk-card: #181b28;
+  --sk-ink: #eef0ff;
+  --sk-dim: #8990b5;
+  --sk-soft: #31385c;
+  --sk-pri: #7c7aff;
+  --sk-pri-ink: #ffffff;
+  --sk-acc: #ff5fa8;
+  --sk-track: #2a2f4a;
+  --sk-on-pri: #ffffff;
+  --sk-fx-fill: #20253a;
+  --sk-fx-shade: #3d4570;
+  --sk-fx-line: #959cff;
+  --sk-fx-acc: #ff5fa8;
+  --sk-fx-ink: #eef0ff;
+  --sk-sfx-fill: #eef0ff;
+  --sk-sfx-edge: #181b28;
+  --sk-mask: rgba(6, 8, 15, .64);
+  --sk-mask-dot: rgba(149, 156, 255, .18);
+}
+
+:root[data-sk-theme="cyan"],
+[data-sk-theme="cyan"] {
+  --page: #f2faff;
+  --text: #0b253a;
+  --mute: #527794;
+  --line: #c6e2f5;
+  --chip: #e2f3fe;
+  --sk-card: #ffffff;
+  --sk-ink: #0b253a;
+  --sk-dim: #5c7d96;
+  --sk-soft: #96e0ff;
+  --sk-pri: #0ea5e9;
+  --sk-pri-ink: #0b253a;
+  --sk-acc: #ff477e;
+  --sk-track: #cae4f5;
+  --sk-on-pri: #ffffff;
+  --sk-fx-fill: #ffffff;
+  --sk-fx-shade: #96e0ff;
+  --sk-fx-line: #0284c7;
+  --sk-fx-acc: #ff477e;
+  --sk-fx-ink: #0b253a;
+  --sk-sfx-fill: #0b253a;
+  --sk-sfx-edge: #ffffff;
+  --sk-mask: rgba(11, 37, 58, .24);
+  --sk-mask-dot: rgba(11, 37, 58, .2);
+}
+
+:root[data-sk-theme="amber"],
+[data-sk-theme="amber"] {
+  color-scheme: dark;
+  --page: #16120e;
+  --text: #fdf4e7;
+  --mute: #b09b82;
+  --line: #3a2f24;
+  --chip: #241d16;
+  --sk-card: #221c16;
+  --sk-ink: #fdf4e7;
+  --sk-dim: #ad977d;
+  --sk-soft: #543b20;
+  --sk-pri: #f59e0b;
+  --sk-pri-ink: #18120c;
+  --sk-acc: #fb7185;
+  --sk-track: #3b3025;
+  --sk-on-pri: #18120c;
+  --sk-fx-fill: #2c231b;
+  --sk-fx-shade: #704b20;
+  --sk-fx-line: #fbbf24;
+  --sk-fx-acc: #fb7185;
+  --sk-fx-ink: #fdf4e7;
+  --sk-sfx-fill: #fdf4e7;
+  --sk-sfx-edge: #221c16;
+  --sk-mask: rgba(10, 7, 4, .66);
+  --sk-mask-dot: rgba(251, 191, 36, .16);
+}
